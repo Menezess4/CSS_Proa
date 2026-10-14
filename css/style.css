@@ -1,0 +1,13 @@
+body {
+    background-color: #000000
+}
+h1{
+    color: #e0e0e0
+}
+h4.ex1{
+    color: #e0e0e0;
+    text-align: center
+}
+*{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
