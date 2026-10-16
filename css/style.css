@@ -9,5 +9,44 @@ h4.ex1{
     text-align: center
 }
 *{
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+     sans-serif;
+}
+
+.ex2-h3, .ex2-p{
+    color: #b85858;
+    text-align: center
+}
+
+p.borda-cor1{
+    color: aqua;
+}
+
+p.borda-cor2{
+    color: #b85858;
+}
+
+p.borda-cor3{
+    color: rgb(red green blue);
+}
+
+p.borda-cor4{
+    color: hsl(9, 100%, 64%);
+}
+
+p.bordas-individuais1{
+    border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: ridge;
+    border-left-style: dotted;
+}
+p.bordar-individuais2{
+    border-style: dashed solid dotted double;
+}
+
+p.borda-abbr1{
+    border: 5px solid darkred;
+}
+p.borda-abbr2{
+    border-bottom: 5px solid darkred;
 }
