@@ -50,3 +50,6 @@ p.borda-abbr1{
 p.borda-abbr2{
     border-bottom: 5px solid darkred;
 }
+.p.borda-arredondada01{
+    border-radius: 30%;
+}

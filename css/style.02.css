@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+p.ex1{
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+p.ex2-1,p.ex2-2,p.ex2-3,p.ex2-4{
+    color: aqua;
+}
+
+p.ex2-1{
+    margin: 50px;
+}
+
+p.ex2-2{
+    margin: 50px 100px;
+}
+p.ex2-3{
+    margin: 50px 150px 100px;
+}
+p.ex2-4{
+    margin: 10px 40px  100px 150px
+}
+
+div.ex3{
+    border: 2px solid darkred;
+    width: 250px;
+    margin: auto;
+}
