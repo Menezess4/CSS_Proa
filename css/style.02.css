@@ -34,3 +34,22 @@ div.ex3{
     width: 250px;
     margin: auto;
 }
+/* definindo contorno com shorthand */
+p.ex3 {
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    outline: 8px solid crimson ;
+    margin: 10px;
+}
+/* definindo offset em contorno de elemento */
+p.ex3-2 {
+    border: 2px solid whitesmoke ;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    outline: 8px solid crimson;
+    outline-offset: 10px;
+    margin: 20px;
+}
