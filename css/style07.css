@@ -1,0 +1,109 @@
+body{
+    background-color: aqua;
+    color: aliceblue;
+    font-family: 'Lucida Sans';
+}
+
+
+
+.ex1{
+    background-color: tan ;
+    display: grid;
+    border: 8px solid saddlebrown;
+    padding: 10px;
+    gap: 10px;
+    background-color: thistle;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(2, 70px);
+}
+
+
+
+.ex1 div{
+    background-color: aqua;
+    border: 4px solid saddlebrown;
+    border-radius: 5%;
+    text-align: center;
+    align-content: center;
+}
+
+/* space-evenly no justify-content*/
+
+.ex1{
+    justify-content: space-evenly;
+}
+
+/*space-areound no justify-content*/
+.ex2{
+
+    justify-content: space-around;
+}
+
+/*space-between no justify-content*/
+.ex3{
+    justify-content: space-between;
+}
+
+.ex4{
+    justify-content: center;
+}
+    /*start no justify-content*/
+.ex5{
+    justify-content: start;
+}
+.ex6{
+    justify-content: end;
+}
+
+/*Estilos de conteineres*/
+.ex7,
+.ex8,
+.ex9,
+.ex10,
+.ex11,
+.ex12{
+    background-color: tan ;
+    display: grid;
+    border: 8px solid saddlebrown;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(2, 70px);
+    justify-content: center;
+}
+.ex7 div,
+.ex8 div,
+.ex9 div,
+.ex10 div,
+.ex11 div,
+.ex12 div{
+    background-color:aliceblue;
+    border: 4px solid saddlebrown;
+    color: crimson;
+    text-align: center;
+    align-content: center;
+    
+}
+/*Usando align-center*/
+.ex7{
+    align-content: center;
+}
+/*Usando space-evenly*/
+.ex8{
+    align-content: space-evenly;
+}
+/*Usando space-between*/
+.ex9{
+    align-content: space-between;
+}
+/*Usando space-around*/
+.ex10{
+    align-content: space-around;
+}
+/*Usando valor start e end*/
+.ex11{
+    align-content: start;
+}
+.ex12{
+    align-content: end;
+}

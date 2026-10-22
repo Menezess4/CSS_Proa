@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.ex1{
+    background-color: aliceblue;
+    border: solid tan 8px ;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns:repeat(3,1px) ;
+    grid-template-rows: repeat(2,60px);
+}
+
+.ex1 div{
+    background-color: aquamarine;
+    color: lightsalmon ;
+    border: 4px solid pink;
+    text-align: center;
+    justify-content: center;
+}
+
+/*utilizando a propriedades grid-column-start e end*/
+#ex1-item1{
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+}
+#ex2-item1{
+   grid-column: 1/ span 2;
+}
+
+#ex3-item1{
+   grid-row-start: 1;
+   grid-row-end:3 ;
+}
+
+#ex4-item1{
+   grid-row: 1/ span 2;
+}
+
+#ex5-item1{
+   grid-column: 1/ span 2;
+   grid-row: 1/span 2;
+}
